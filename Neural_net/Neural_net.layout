@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="config.h" open="1" top="0" tabpos="4">
+		<Cursor position="622" topLine="0" />
+	</File>
+	<File name="fixedptc.h" open="1" top="0" tabpos="5">
+		<Cursor position="10158" topLine="200" />
+	</File>
+	<File name="genetics.c" open="1" top="1" tabpos="6">
+		<Cursor position="15673" topLine="487" />
+	</File>
+	<File name="genetics.h" open="1" top="0" tabpos="7">
+		<Cursor position="694" topLine="7" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="908" topLine="15" />
+	</File>
+	<File name="neural.c" open="1" top="0" tabpos="3">
+		<Cursor position="908" topLine="120" />
+	</File>
+	<File name="neural.h" open="1" top="0" tabpos="2">
+		<Cursor position="578" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

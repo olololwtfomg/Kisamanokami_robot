@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1334771180 source:c:\users\olololwtfomg\work\neural_net\main.c
+	<stdio.h>
+	<stdlib.h>
+	"neural.h"
+	<time.h>
+	"genetics.h"
+
+1334782361 c:\users\olololwtfomg\work\neural_net\neural.h
+	"genetics.h"
+	<stdio.h>
+	<stdint.h>
+
+1334781774 source:c:\users\olololwtfomg\work\neural_net\neural.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"config.h"
+	"fixedptc.h"
+	"neural.h"
+	"genetics.h"
+	<omp.h>
+
+1335302007 c:\users\olololwtfomg\work\neural_net\config.h
+
+1330381391 c:\users\olololwtfomg\work\neural_net\fixedptc.h
+	<stdint.h>
+
+1333829757 source:c:\users\olololwtfomg\work\neural_net\genetics.h
+	<stdint.h>
+
+1335548382 c:\users\olololwtfomg\work\neural_net\genetics.h
+	<stdint.h>
+	"neural.h"
+
+1335548361 source:c:\users\olololwtfomg\work\neural_net\genetics.c
+	"genetics.h"
+	"neural.h"
+	"fixedptc.h"
+	<stdlib.h>
+	<stdint.h>
+	<stdio.h>
+	<inttypes.h>
+	<string.h>
+	<omp.h>
+	"config.h"
+	<math.h>
+

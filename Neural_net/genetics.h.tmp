@@ -1,0 +1,39 @@
+#ifndef GENETICS_H_INCLUDED
+#define GENETICS_H_INCLUDED
+
+#include <stdint.h>
+
+#define CONST1 1/3
+#define CONST2 1/3
+#define CONST3 1/3
+
+#define TESTCASE_FILE "testcases.txt"
+
+typedef uint16_t tInputType;
+typedef uint32_t tOutputType;
+
+typedef uint64_t tErrorType;
+typedef int32_t tNeuronConn;
+
+typedef struct
+{
+    tInputType *inputs;
+    tOutputType *outputs;
+}tTestCase;
+
+typedef struct
+{
+    tNeuronConn *weightIH;
+    tNeuronConn *weightHO;
+    tNeuronConn *weightCH;
+    tNeuronConn *weightCO;
+    tErrorType avgFinalError;   //average final error
+    tErrorType avgI2;           //average abs error sum
+    tErrorType avgI3;           //average error sigma
+}
+tJedinec;
+
+void initTestCases();
+void holocaust();
+void initJedinci();
+#endif // GENETICS_H_INCLUDED

@@ -1,0 +1,64 @@
+Partlist
+
+Exported from main_board2.brd at 11/27/11 4:26 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value            Package            Library             Position (mil)        Orientation
+
+BRCE1                     LED5MM             led                 (3786 1740)           R270
+BRCE2                     LED5MM             led                 (3766 186)            R180
+BRCE3                     LED5MM             led                 (428 138)             R180
+BRCE4                     LED5MM             led                 (564 3060)            R180
+BRCE5                     LED5MM             led                 (3828 3012)           R180
+BRCS1                     LED5MM             led                 (3786 1482)           R90
+BRCS2                     LED5MM             led                 (3496 186)            R180
+BRCS3                     LED5MM             led                 (166 150)             R0
+BRCS4                     LED5MM             led                 (120 3036)            R0
+BRCS5                     LED5MM             led                 (3612 3012)           R0
+C1       100n             C1206              rcl                 (2238 2540)           MR270
+C2       100n             C1206              rcl                 (2406 2542)           MR270
+C3       2000uF           E3,5-10            rcl                 (2796 2830)           R180
+C5       100n             C1206              rcl                 (442 2334)            MR180
+C6       100n             C1206              rcl                 (1264 1242)           MR0
+C10      100n             C1206              rcl                 (2670 1566)           MR90
+C14      100n             C1206              rcl                 (1280 1962)           MR0
+C15      100n             C1206              rcl                 (1950 1570)           MR270
+C19      1u               PANASONIC_B        rcl                 (1908 2534)           MR90
+D1       1N4004           DO41-10            diode               (3224 2962)           R0
+IC1      L293D            DIL16              st-microelectronics (2280 1572)           R0
+IC3      LIS3LV02DQ       QFPN-28            st-microelectronics (1276 1572)           MR90
+JP1                       JP2                jumper              (2502 678)            R0
+LED1                      LED3MM             led                 (3110 544)            MR0
+LED2                      LED3MM             led                 (2946 560)            MR180
+M1                        JP1                jumper              (2274 1212)           R90
+M2                        JP1                jumper              (2274 2002)           R270
+MAINV                     JP1                jumper              (3408 2770)           R0
+Q2       BC557            TO92               transistor-pnp      (3168 806)            R0
+R1       1k               M1206              resistor            (2922 308)            MR270
+R2       1k               M1206              resistor            (3210 384)            MR270
+R3       1k               M1206              resistor            (824 2094)            MR180
+R4       Rbuzz            M1206              resistor            (186 2046)            MR90
+R5       10k              M1206              resistor            (2212 412)            MR90
+R6       10k              M1206              resistor            (2680 446)            MR90
+R7       10k              M1206              resistor            (60 2772)             MR90
+R8       10k              M1206              resistor            (3576 2700)           MR90
+R9       200              M1206              resistor            (492 2844)            MR90
+R10      200              M1206              resistor            (3720 2700)           MR90
+R13      200              M1206              resistor            (3512 1710)           MR0
+R14      200              M1206              resistor            (3738 492)            MR270
+R15      200              M1206              resistor            (488 462)             MR180
+R19      10k              M1206              resistor            (3524 1458)           MR0
+R21      10k              M1206              resistor            (3450 480)            MR270
+R23      10k              M1206              resistor            (160 414)             MR0
+R25      100k             M1206              resistor            (3028 2526)           MR0
+R26      50k              M1206              resistor            (3332 2526)           MR0
+S1                        B3F-10XX           switch-omron        (2124 182)            R180
+S2                        B3F-10XX           switch-omron        (2568 188)            R180
+SENSE1                    JP2                jumper              (2294 2322)           R0
+SENSE2                    JP2                jumper              (1980 2322)           R0
+SG1      F/CM12P          F/CM12P            buzzer              (324 2626)            R180
+T1                        TO92-CBE           transistor          (628 2158)            R90
+U$1      LF33CDT          DPAK               robot               (2320 2944)           MR0
+U$2      STM32_DISCOVERY  STM32_DISCOVERY    stm32_discovery     (2448 1572)           R270
+U$8      MICROSD_SPI_MODE MICRO_SD_CONNECTOR con-molex-microsd   (356 1536)            MR90

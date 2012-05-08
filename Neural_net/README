@@ -1,0 +1,8 @@
+Well this crazy project was supposed to be used as the hardware, firmware and a learning machine for a line following robot.
+Hardware used : 
+STM32 discovery kit
+L293D motor drivers
+accelerometer (optional)
+microSD card slot
+Pololu DC mikromotors.
+I'll add the rest of the info after the semester ends.
